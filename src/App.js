@@ -1,1 +1,3 @@
-export default () => <div>HELLO</div>;
+const App = () => <div>HELLO</div>;
+
+export default App;
