@@ -43,7 +43,7 @@ jobs:
             npm install
             npm run build
             cd build
-            zip ../build"zip -r * .[^.]*
+            zip ../build.zip -r * .[^.]*
             echo "Build successfull"
       - run:
           name: Deploy to ASW s3
@@ -79,7 +79,7 @@ jobs:
             npm install
             npm run build
             cd build
-            zip ../build"zip -r * .[^.]*
+            zip ../build.zip -r * .[^.]*
             echo "Build successfull"
       - run:
           name: Deploy to ASW Cloudfront
