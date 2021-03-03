@@ -1,3 +1,3 @@
-import logo from "./logo.svg";
+const App = () => <div>HELLO</div>;
 
-export default App = () => <div>HELLO</div>;
+export default App;
